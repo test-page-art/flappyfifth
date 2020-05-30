@@ -272,7 +272,7 @@ FlappyMonster.prototype.drawGameOverScreen = function() {
   // Text
   game.context.fillStyle = 'white';
   game.context.font = '54px Arial';
-  game.context.fillText('Tu puntaje es : ' + game.gameScore.score, game.canvas.width / 2 - 180+ 'BEs', game.canvas.height / 2 - 100);
+  game.context.fillText('Tu puntaje es : ' + game.gameScore.score, game.canvas.width / 2 - 180 + 'BEs', game.canvas.height / 2 - 100);
   game.context.font = '36px Arial';
   game.context.fillText('Perdiste drogadicto :(', game.canvas.width / 2 - 100, game.canvas.height / 2);
   game.context.font = '24px Arial';
